@@ -2,20 +2,11 @@
 
 string = 'rerorerorero'
 string_end = 'kek'
-i = 0
-string_list=[]
-string_end_list=[]
 sure = True
 
-for i in range(len(string)):
-    string_list.append(string[i])
-    i+=1
-i = 0 
+string_list=[ i for i in string]
+string_end_list=[ i for i in string_end]
 
-for i in range(len (string_end)):
-    string_end_list.append(string_end[i])
-    i+=1
-i = 0
 reverse_string = string_list[::-1]
 reverse_end = string_end_list[::-1]
 
