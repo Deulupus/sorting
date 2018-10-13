@@ -1,12 +1,6 @@
-n = 15
-res = []
-i = 0
-k = 0
-
-for i in range(n):
-    if i % == 1 and i < n:
-        k+=1
-        res.append(i)
+n = 7
+res = [i for i in range(n) if i % 2]
+k = len(res)
 
 print(res)
 print(k)
