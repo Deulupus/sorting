@@ -1,11 +1,12 @@
-# У меня закипели мозги пока я пыталась решить эту задачу.
-
+def foo(string):
+    str_list= [ i for i in string]
+    return str_list
 string = 'rerorerorero'
 string_end = 'kek'
 sure = True
 
-string_list=[ i for i in string]
-string_end_list=[ i for i in string_end]
+string_list=foo(string)
+string_end_list=foo(string_end)
 
 reverse_string = string_list[::-1]
 reverse_end = string_end_list[::-1]
