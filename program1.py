@@ -1,6 +1,8 @@
-n = 7
-res = [i for i in range(n) if i % 2]
-k = len(res)
+def foo (a):
+    res = [i for i in range(a) if i % 2]
+    return res
 
-print(res)
+k = len(foo(7))
+
+print(foo(7))
 print(k)
